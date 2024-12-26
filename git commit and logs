@@ -1,0 +1,1 @@
+git status (while in directory) should always be run first because this lets you know what git is tracking and not tracking.
