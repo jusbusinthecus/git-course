@@ -1,4 +1,6 @@
-# this will be done from gitbash
+PRACTICE at home!
+
+# this will be done from gitbash, make sure you're in the proper directory
 
 git status (while in directory) should always be run first because this lets you know what git is tracking and not tracking.
 
@@ -11,5 +13,10 @@ git status - should give an error of untracked files. AKA git is not tracking th
 # make the files trackable
 git add testone.txt
 
-# now check the status
+# now check the status, this file is now in a so called "staging area"
 git status
+
+# now we commit, also important to note that the syntax needs to include -m <"description">
+git commit -m "add file one"
+
+# running git status now will not showing the file thats being tracked.
