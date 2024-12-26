@@ -1,0 +1,39 @@
+# git ignore
+# a file where we can say across the board to skip or ignore this file. It can contain sensitive data.
+
+How does git know me???
+
+
+git config --global user.name "Mona Lisa" 
+git config --global user.email "giovanni1justin@gmail.com"
+
+
+# configure code editor, I like Atom 
+
+git config core.editor "atom --wait"
+
+# using git ignore
+
+touch .gitignore
+
+# When creating projects there are files known as environment variables that contain sensitive data, such as API keys, AWS keys, openai
+keys.
+
+# The gitignore file is where you can put all the files you don't want to be tracked. So for example, if you had a large 
+folder of files and wanted to run:
+
+git commit .
+or
+git add .
+
+# you couldn't because you have those sensitive files included in that working directory. So, put those files in the 
+# gitignore file:
+
+
+HOMEWORK:
+
+Add atom editor to configuration
+create more files, at least five
+create a git ignore file and place files in the gitignore file. ensure that you no longer see the files when
+you run a status on the directory
+
