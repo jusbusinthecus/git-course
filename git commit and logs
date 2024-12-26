@@ -1,1 +1,15 @@
+# this will be done from gitbash
+
 git status (while in directory) should always be run first because this lets you know what git is tracking and not tracking.
+
+# currently in gitone folder 
+touch testone.txt testtwo.txt
+
+git status - should give an error of untracked files. AKA git is not tracking these files
+# the concept is that you write some code, you add that code in the "git tracking zone" , then you commit or save the changes.
+
+# make the files trackable
+git add testone.txt
+
+# now check the status
+git status
