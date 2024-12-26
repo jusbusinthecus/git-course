@@ -20,3 +20,11 @@ git status
 git commit -m "add file one"
 
 # running git status now will not showing the file thats being tracked.
+
+
+# do the samething for testtwo.txt and create a testthree.txt
+
+# using git log
+git log - will display commit id of all commits
+
+git log --oneline - produces less verbosity.
